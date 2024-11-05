@@ -1,0 +1,7 @@
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: api
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::974860574511:role/eks-user-service-role
